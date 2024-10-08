@@ -1,5 +1,6 @@
 /* 사용자가 만든 페이지 불러오기 */
 import Router from '../routes';
+import './App.css'
 
 /* 최상위 페이지 */
 const App = () => {

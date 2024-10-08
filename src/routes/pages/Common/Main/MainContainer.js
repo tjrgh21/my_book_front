@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import MainPresenter from "./MainPresenter";
 
+
 /* 
     하나의 페이지를 Container와 Presenter로 분리하고 각 역할은 아래와 같다
 
@@ -12,6 +13,7 @@ const MainContainer = () => {
     const [text, setText] = useState('');
     const [isSignUp, setIsSignUp] = useState(null);
     const [isSignIn, setIsSignIn] = useState(null);
+    
 
     const buttonClick = async () => {
         const result = await fetch('http://localhost:3333/test', {
@@ -76,6 +78,7 @@ const MainContainer = () => {
 
             SignIn={SignIn}
             isSignIn={isSignIn}
+
         />
     )
 }

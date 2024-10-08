@@ -1,0 +1,183 @@
+input, button {
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    text-decoration: none;
+    appearance: none;
+    background: transparent;
+    padding: 0;
+}
+
+.Sign-container *{
+    line-height: 1.5;
+    background-color: transparent;
+    font-family: "Pretendard", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.Sign-container{
+    padding: 30px 20px 20px 20px;
+    color: #000;
+}
+
+.Signin-box{
+    padding-top: 2rem;
+}
+
+.Sign-container .Sign-Block{
+    min-height: 90px;
+}
+
+.uInputArea {
+    display: table;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.uInputArea .col:last-child {
+    padding-right: 5px;
+}
+
+.uInputArea .col:first-child {
+    width: 100%;
+    padding-left: 5px;
+}
+
+.uInputArea .uInput label {
+    font-size: 15px;
+    line-height: 30px;
+    float: left;
+    font-weight: bold;
+}
+
+.uInputArea .uInput .inputBox {
+    overflow: hidden;
+    position: relative;
+}
+
+.uInputArea .uInput .inputBox .InputText {
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 0 25px 0 10px;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.Sign-container input::placeholder{
+    color: #3a3a3a;
+}
+
+.Sign-container .Signup-BtnBox{
+    margin-top: 1rem;
+}
+
+.Sign-container .Signin-BtnBox{
+    margin-top: 8rem;
+}
+
+.user-container .Logout-BtnBox{
+    margin-top: 1.5rem;
+}
+
+.Sign-container .Signup-BtnBox .Btn{
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border-radius: 1.0rem;
+    background-color: #b9b9b9;
+}
+
+.Sign-container .Signup-BtnBox .Btn:hover{
+    background-color: #929292;
+}
+
+.Sign-container .Signup-BtnBox .Btn span{
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: #fff;
+}
+
+.Sign-container .Signin-BtnBox .Btn{
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border-radius: 1.0rem;
+    background-color: #1769ff;
+}
+
+.user-container .Logout-BtnBox .Btn{
+    display: block;
+    margin-left: 10px;
+    width: 95%;
+    height: 2.5rem;
+    border-radius: 1.0rem;
+    background-color: #23c481;
+}
+
+.Sign-container .Signin-BtnBox .Btn:hover{
+    background-color: #1353c9;
+}
+
+.user-container .Logout-BtnBox .Btn:hover{
+    background-color: #1353c9;
+}
+
+.Sign-container .Signin-BtnBox .Btn span{
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: #fff;
+}
+
+.user-container .Logout-BtnBox .Btn span{
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: #fff;
+}
+
+.Sign-menu-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+ul.Sign-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+    white-space: nowrap;
+    list-style-type: none;
+}
+
+ul.Sign-menu li{
+    position: relative;
+    display: inline-block;
+    padding: 0 1.2rem;
+    box-sizing: border-box;
+}
+
+.Sign-container .Sign-menu-box li + li::before{
+    content: "";
+    position: absolute;
+    top: .3rem;
+    left: 0;
+    width: .1rem;
+    height: 1rem;
+    background-color: #5f5f5f;
+}
+
+ul.Sign-menu li a{
+    font-size: 0.9rem;
+    color: #000000;
+    text-decoration: none;
+}

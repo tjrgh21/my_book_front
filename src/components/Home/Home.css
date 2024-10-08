@@ -1,0 +1,37 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px 20px;
+    color: #000000;
+}
+
+.home-item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    border-width: 1px;
+    background-color: rgb(217 243 216);
+    border-color: aliceblue;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.home-item-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item-left{
+    margin-right: 10px;
+}
+
+.item-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

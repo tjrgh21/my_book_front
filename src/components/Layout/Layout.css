@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout-container{
+    background-color: #fffff0;
+    border: 1px solid #e0e3e8;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 720px;
+    position: relative;
+    width: 100%;
+}
+
+.layout-container .main-contensts{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.layout-container .main-nav{
+    flex-grow: 1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
